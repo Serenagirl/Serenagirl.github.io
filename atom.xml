@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-05-14T05:37:02.453Z</updated>
+  <updated>2019-05-21T09:07:23.796Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,75 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第三周：使用python时的注意点</title>
+    <link href="/2019/05/21/%E7%AC%AC%E4%B8%89%E5%91%A8%EF%BC%9A%E4%BD%BF%E7%94%A8python%E6%97%B6%E7%9A%84%E6%B3%A8%E6%84%8F%E7%82%B9/"/>
+    <id>/2019/05/21/第三周：使用python时的注意点/</id>
+    <published>2019-05-21T08:42:35.000Z</published>
+    <updated>2019-05-21T09:07:23.796Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;少使用秩为一的数组&quot;&gt;&lt;a href=&quot;#少使用秩为一的数组&quot; class=&quot;headerlink&quot; title=&quot;少使用秩为一的数组&quot;&gt;&lt;/a&gt;少使用秩为一的数组&lt;/h2&gt;&lt;p&gt;在python中，你可能会认为：&lt;br&gt;a =
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>DeepLearning.AI</title>
+    <link href="/2019/05/21/DeepLearning-AI/"/>
+    <id>/2019/05/21/DeepLearning-AI/</id>
+    <published>2019-05-21T08:14:00.000Z</published>
+    <updated>2019-05-21T08:21:30.103Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;因为感觉大二比较闲，所以想要了解一下关于机器学习方面的内容，咨询过学长之后，决定选择吴恩达系列的微专业来学习。&lt;br&gt;1、选择了Coursera作为学习平台，因为它有作业，没有作业的自学我是不可能坚持下去的！而且coursera有一个志愿者平台，你可以做他的翻译志愿者，这样
+        
+      
+    
+    </summary>
+    
+      <category term="随想" scheme="/categories/%E9%9A%8F%E6%83%B3/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第二周：神经网络基础</title>
+    <link href="/2019/05/21/%E7%AC%AC%E4%BA%8C%E5%91%A8%EF%BC%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/"/>
+    <id>/2019/05/21/第二周，神经网络基础/</id>
+    <published>2019-05-21T08:09:28.000Z</published>
+    <updated>2019-05-21T08:22:46.522Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;在学习神经网络结构之前，要对一些定义有些了解：&lt;/p&gt;
+&lt;h2 id=&quot;logistic函数&quot;&gt;&lt;a href=&quot;#logistic函数&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>第一周：监督式学习介绍</title>
@@ -40,50 +109,6 @@
     
       <category term="机器学习" scheme="/categories/%E6%8A%80%E6%9C%AF/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="/2019/05/14/hello-world/"/>
-    <id>/2019/05/14/hello-world/</id>
-    <published>2019-05-14T02:39:55.379Z</published>
-    <updated>2019-05-14T02:39:55.379Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="/2018/12/12/Hexo-Theme-Sakura/"/>
-    <id>/2018/12/12/Hexo-Theme-Sakura/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2019-04-29T04:18:53.000Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="/tags/web/"/>
-    
-      <category term="悦读" scheme="/tags/%E6%82%A6%E8%AF%BB/"/>
     
   </entry>
   
