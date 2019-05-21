@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">rss | None</title>
+  <title itemprop="name">第一周：监督式学习介绍 | None</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -383,12 +383,112 @@
   </div>
 </header>
 
-        <div class="pattern-center-blank"></div>
-  
-  <div id="content" class="site-content">
-    <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
-      
-      <!-- .entry-content -->
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<div class="pattern-center-blank"></div>
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+          <header class="entry-header">
+            <h1 class="entry-title">第一周：监督式学习介绍</h1>
+            <p class="entry-census">Serena&nbsp;·&nbsp;2019-5-14&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p><p></p>
+
+            <hr>
+          </header>
+        
+        <div class="entry-content">
+          <p>在跟进吴恩达的神经网络课程，但是无奈英语基础好差，不能用英语来写博客，就把每节课的笔记翻译成中文写出来。</p>
+<h1 id="专项课程一-神经网络和深度学习（Neural-Networks-amp-Deep-Learning）"><a href="#专项课程一-神经网络和深度学习（Neural-Networks-amp-Deep-Learning）" class="headerlink" title="专项课程一     神经网络和深度学习（Neural Networks &amp; Deep Learning）"></a>专项课程一     神经网络和深度学习（Neural Networks &amp; Deep Learning）</h1><h2 id="第一周-深度学习概论"><a href="#第一周-深度学习概论" class="headerlink" title="第一周   深度学习概论"></a>第一周   深度学习概论</h2><p>监督式学习：输入一个数据集，我们很清楚的知道输出结果，并且输入和输出之间存在着某种关系，即监督式学习。<br>主要用于解决回归和分类问题。</p>
+<p>规模促进神经网络的进步：数据规模和神经网络中的神经元规模及其之间的连接<br>1、定义</p>
+<p>机器学习（Machine Learing）是一门多领域交叉类的学科，涉及了概率论，计算机视觉，自然语言处理，统计学，算法等多门学科，是研究计算机如何模拟或者实现人类的学习行为，来获得新的知识或者技能，重新组织已经有的知识结构来不断完善的过程。【1】</p>
+<p>机器学习是人工智能的一个分支。人工智能的研究是从以“推理”为重点到以“知识”为重点，再到以“学习”为重点，一条自然、清晰的脉络。显然，机器学习是实现人工智能的一个途径，即以机器学习为手段解决人工智能中的问题。机器学习在近30多年已发展为一门多领域交叉学科，涉及概率论、统计学、逼近论、凸分析、计算复杂性理论等多门学科。机器学习理论主要是设计和分析一些让计算机可以自动“学习”的算法。机器学习算法是一类从数据中自动分析获得规律，并利用规律对未知数据进行预测的算法。因为学习算法中涉及了大量的统计学理论，机器学习与推断统计学联系尤为密切，也被称为统计学习理论。算法设计方面，机器学习理论关注可以实现的，行之有效的学习算法。很多推论问题属于无程序可循难度，所以部分的机器学习研究是开发容易处理的近似算法。</p>
+<p>机器学习已广泛应用于数据挖掘、计算机视觉、自然语言处理、生物特征识别、搜索引擎、医学诊断、检测信用卡欺诈、证券市场分析、DNA序列测序、语音和手写识别、战略游戏和机器人等领域。【2】</p>
+<p>2、分类</p>
+<p>机器学习可以分成下面几种类别：</p>
+<pre><code>监督学习从给定的训练数据集中学习出一个函数，当新的数据到来时，可以根据这个函数预测结果。监督学习的训练集要求是包括输入和输出，也可以说是特征和目标。训练集中的目标是由人标注的。常见的监督学习算法包括回归分析和统计分类。
+</code></pre><p>监督学习和非监督学习的差别就是训练集目标是否人标注。他们都有训练集 且都有输入和输出</p>
+<pre><code>无监督学习与监督学习相比，训练集没有人为标注的结果。常见的无监督学习算法有聚类。
+半监督学习介于监督学习与无监督学习之间。
+增强学习通过观察来学习做成如何的动作。每个动作都会对环境有所影响，学习对象根据观察到的周围环境的反馈来做出判断。
+</code></pre><p>3、算法</p>
+<p>具体的机器学习算法有：</p>
+<pre><code>构造间隔理论分布：聚类分析和模式识别
+    人工神经网络
+    决策树
+    感知器
+    支持向量机
+    集成学习AdaBoost
+    降维与度量学习
+    聚类
+    贝叶斯分类器
+构造条件概率：回归分析和统计分类
+    高斯过程回归
+    线性判别分析
+    最近邻居法
+    径向基函数核
+通过再生模型构造概率密度函数：
+    最大期望算法
+    概率图模型：包括贝叶斯网和Markov随机场
+    Generative Topographic Mapping
+近似推断技术：
+    马尔可夫链
+    蒙特卡罗方法
+    变分法
+最优化：大多数以上方法，直接或者间接使用最优化算法。
+关于各类算法介绍：http://blog.jobbole.com/108395/
+【1】吕峰，基于Android手机和机器学习的室内室外运动状态分类系统
+【2】维基百科
+</code></pre>
+        </div>
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏<div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/donate/AliPayQR.jpg"></li>
+                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/donate/WeChanQR.jpg"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+        
+          
+            <div class="post-nepre full next">
+          
+            <a href="/2019/05/14/hello-world/" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                Hello World</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
       
 <div id="vcomments"></div>
 <script>
@@ -404,32 +504,24 @@
   }
 </script>
 
-      <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
-      <footer class="post-footer">
-        <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
-        <div class="post-tags">
-        </div>
-        <div class="post-share">
-          <div class="social-share sharehidden share-component"></div>
-          <i class="iconfont show-share icon-forward"></i>
-        </div>
-      </footer><!-- .entry-footer -->
-    </article>
-      <!-- #post-## -->
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <a href="/about/" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/avatar.jpg" itemprop="image" alt="Serena" height="70" width="70"></a>
+          <a href="hojun.cn" class="profile gravatar"><img src="https://wx1.sinaimg.cn/large/006bYVyvgy1ftand2qurdj303c03cdfv.jpg" itemprop="image" alt="Serena" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="https://sakura.hojun.cn" itemprop="url" rel="author">Serena</a>
+            <a href="hojun.cn" itemprop="url" rel="author">Serena</a>
             </h3>
           </div>
         </div>
         <hr>
-        <p><i class="iconfont icon-write"></i>Live your life with passion!</p>
+        <p><i class="iconfont icon-write"></i>一个好奇的人</p>
       </section>
+    </main><!-- #main -->
   </div><!-- #primary -->
+</div>
+
+
 
     </div>    
     <div class="ins-search">
