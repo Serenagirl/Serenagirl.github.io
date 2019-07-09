@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">archive_a: 2019/5 | None</title>
+  <title itemprop="name">基于MATLAB的图像处理 | None</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -329,130 +329,105 @@
   </div>
 </header>
 
-      <div class="blank" style="padding-top: 75px;">
-</div>
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<div class="pattern-center-blank"></div>
+
 <div id="content" class="site-content">
-  <div id="main">
-    <header class="page-header">
-      <h1 class="cat-title">
-      归档</h1>
-      <span class="cat-des">
-        <p>
-        Archives</p>
-      </span>
-    </header>
-    <div id="main-part">
-      <article class="art">
-        <div class="art-main">
-          <div class="art-content">
-            <div id="archives">
-              <p style="text-align:right;">
-                [<span id="al_expand_collapse" style="cursor: s-resize;">
-                全部展开/收缩</span>
-              ]</p>
-              
-              
-              
-              
-              
-                
-                <h3 class="al_year">2019年</h3>
-              
-              
-                
-                <ul class="al_mon_list">
-                  <li class="al_li">
-                    <span class="al_mon" style="cursor: s-resize;">
-                      07月(<span id="post-num">
-                      3</span>
-                    篇文章)</span>
-                    <ul class="al_post_list" style>
-              
-                      <li>
-                        <a href="/2019/07/08/基于MATLAB的图像处理/">
-                          <span style="color:#0bf;">
-                          08日15:59:08</span>
-                          基于MATLAB的图像处理
-                        </a>
-                      </li>
-                      
-                    </ul>
-                  </li>
-                </ul>
-              
-              
-              
-              
-              
-              
-                
-                <ul class="al_mon_list">
-                  <li class="al_li">
-                    <span class="al_mon" style="cursor: s-resize;">
-                      05月(<span id="post-num">
-                      3</span>
-                    篇文章)</span>
-                    <ul class="al_post_list" style>
-              
-                      <li>
-                        <a href="/2019/05/21/第三周：使用python时的注意点/">
-                          <span style="color:#0bf;">
-                          21日16:42:35</span>
-                          第三周：使用python时的注意点
-                        </a>
-                      </li>
-                      
-              
-              
-              
-              
-              
-                      <li>
-                        <a href="/2019/05/21/DeepLearning-AI/">
-                          <span style="color:#0bf;">
-                          21日16:14:00</span>
-                          DeepLearning.AI
-                        </a>
-                      </li>
-                      
-              
-              
-              
-              
-              
-                      <li>
-                        <a href="/2019/05/21/第二周，神经网络基础/">
-                          <span style="color:#0bf;">
-                          21日16:09:28</span>
-                          第二周：神经网络基础
-                        </a>
-                      </li>
-                      
-              
-              
-              
-              
-              
-                      <li>
-                        <a href="/2019/05/14/article-title/">
-                          <span style="color:#0bf;">
-                          14日11:35:00</span>
-                          第一周：监督式学习介绍
-                        </a>
-                      </li>
-                      
-                    </ul>
-                  </li>
-                </ul>
-              
-              
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+          <header class="entry-header">
+            <h1 class="entry-title">基于MATLAB的图像处理</h1>
+            <p class="entry-census">Serena&nbsp;·&nbsp;2019-7-8&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p><p></p>
+
+            <hr>
+          </header>
+        
+        <div class="entry-content">
+          <p>因为去年暑假因为图像处理摔得很惨，所以今年特意从东院图书馆借来了《基于MATLAB的图像处理案例教程》，这篇博客会记录一些可能用得到的图像处理方法。（最近记性越来越差了，急需核桃）<br>1、图像直方图<br>目前我了解的知识，对于直方图的应用，可以用来识别和进行图片对比度的增强。<br>（1）识别<br>对于同一个物体，无论摆放位置或者动作如何，其直方图都是差不多的。<br>（2）对比度增强<br>通常用于图像预处理<br>2、噪声<br>噪声有高斯噪声，椒盐噪声等，但是在实际的图像处理应用中，好像并不怎么用得到<br>3、图像形态学<br>腐蚀：消除边界点，使边界向内部收缩，可以用来消除小且无意义的物体。也可边界提取<br>膨胀：将与物体接触的所有背景点都合并到该物体中，使边界向外部扩张，可用来填补物体中的孔洞。<br>开运算：先腐蚀再膨胀，平滑图像轮廓，断开狭窄连接，去掉细小的凸出部分<br>闭运算：先膨胀再腐蚀，将狭窄的缺口连接起来形成细长的连接口，并填充比结构元素小的空洞。<br>重构：通过一系列操作将初始标记点部分进行处理（自动获取初始标记点需要智能算法）<br>4、图像二值化<br>二值化如果选取了一个好的阈值，能够很好的将元素与背景分割，今天就经历了一个超级好的例子：</p>
+
+        </div>
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏<div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6undefined"></li>
+                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6undefined"></li>
+              </ul>
             </div>
           </div>
         </div>
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
       </article>
-    </div>
-  </div>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+        
+          
+            <div class="post-nepre full next">
+          
+            <a href="/2019/05/21/第三周：使用python时的注意点/" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                第三周：使用python时的注意点</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
+      
+<div id="vcomments"></div>
+<script>
+  window.onload = function(){
+      var valine = new Valine();
+      valine.init({
+        el: '#vcomments',
+        appId: "oDhYnWQW6RsWp8uqzg8E2yvk-gzGzoHsz",
+        appKey: "wEJ9A8TLPMPBWCrqRL2RrfLw",
+        path: window.location.pathname,
+        placeholder: "你是我一生只会遇见一次的惊喜 ..."
+      })
+  }
+</script>
+
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <a href class="profile gravatar"><img src itemprop="image" alt="Serena" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href itemprop="url" rel="author">Serena</a>
+            </h3>
+          </div>
+        </div>
+        <hr>
+        <p><i class="iconfont icon-write"></i></p>
+      </section>
+    </main><!-- #main -->
+  </div><!-- #primary -->
 </div>
+
+
 
     </div>    
     <div class="ins-search">
