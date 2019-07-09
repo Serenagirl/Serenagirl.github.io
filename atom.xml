@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-07-09T03:48:12.295Z</updated>
+  <updated>2019-07-09T04:17:48.260Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>123</title>
+    <link href="/2019/07/09/123/"/>
+    <id>/2019/07/09/123/</id>
+    <published>2019-07-09T04:12:47.000Z</published>
+    <updated>2019-07-09T04:17:48.260Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;因为去年暑假因为图像处理摔得很惨，所以今年特意从东院图书馆借来了《基于MATLAB的图像处理案例教程》，这篇博客会记录一些可能用得到的图像处理方法。（最近记性越来越差了，急需核桃）&lt;br&gt;1、图像直方图&lt;br&gt;目前我了解的知识，对于直方图的应用，可以用来识别和进行图片对比度
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>基于MATLAB的图像处理</title>
