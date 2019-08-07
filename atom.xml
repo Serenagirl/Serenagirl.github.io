@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>None</title>
+  <title>Serena&#39;s Blog</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-07-09T04:17:48.260Z</updated>
+  <updated>2019-07-09T04:23:28.129Z</updated>
   <id>/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="/2019/07/09/123/"/>
     <id>/2019/07/09/123/</id>
     <published>2019-07-09T04:12:47.000Z</published>
-    <updated>2019-07-09T04:17:48.260Z</updated>
+    <updated>2019-07-09T04:23:28.129Z</updated>
     
     <summary type="html">
     
